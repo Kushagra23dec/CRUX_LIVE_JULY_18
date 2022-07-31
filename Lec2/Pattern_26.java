@@ -1,6 +1,8 @@
 package Lec2;
+
 import java.util.Scanner;
-public class Pattern_23 {
+
+public class Pattern_26 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -17,7 +19,7 @@ public class Pattern_23 {
 
 			int j = 1;
 			while (j <= star) {
-				System.out.print("1 ");
+				System.out.print(j+" ");
 				j++;
 			}
 
@@ -28,5 +30,4 @@ public class Pattern_23 {
 
 		}
 	}
-
 }
