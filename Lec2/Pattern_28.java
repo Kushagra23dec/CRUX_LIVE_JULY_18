@@ -12,7 +12,7 @@ public class Pattern_28 {
 		int star = 1;
 		int space = n-1;
 		int v = 1;
-		while(row<=n) {
+		while(row<=n*2-1) {
 			int i = 1;
 			v = row;
 			while(i<=space) {
@@ -30,9 +30,17 @@ public class Pattern_28 {
 				System.out.print(x+" ");
 				x--;
 			}
+			 if(row<=n-1) {
+				 star++;
+				 space--;
+			 }
+			 else {
+				 star--;
+				 space++;
+			 }
+			 
 			row++;
-			star++;
-			space--;
+			 
 			System.out.println();
 		}
 		
